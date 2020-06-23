@@ -1,4 +1,4 @@
-# @xpring-eng/http-status
+# `@xpring-eng/http-status`
 
 ![NPM version badge](https://img.shields.io/npm/v/@xpring-eng/http-status)
 
