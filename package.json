@@ -1,0 +1,48 @@
+{
+  "name": "@xpring-eng/http-status",
+  "version": "1.0.0",
+  "description": "A TypeScript enum for HTTP status codes.",
+  "keywords": [
+    "http",
+    "status",
+    "codes"
+  ],
+  "homepage": "https://github.com/xpring-eng/http-status#readme",
+  "bugs": {
+    "url": "https://github.com/xpring-eng/http-status/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpring-eng/http-status.git"
+  },
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc --project .",
+    "lint": "eslint . --ext .ts --fix --max-warnings 0 && prettier --write '**/*.{md,json}'",
+    "lintNoFix": "eslint . --ext .ts --max-warnings 0 && prettier --check '**/*.{md,json}'"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "@xpring-eng/eslint-config-base": "^0.8.0",
+    "eslint": "^7.3.1",
+    "eslint-plugin-array-func": "^3.1.6",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsdoc": "^28.5.1",
+    "eslint-plugin-mocha": "^7.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-tsdoc": "^0.2.5",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
