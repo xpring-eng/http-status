@@ -1,5 +1,7 @@
 # @xpring-eng/http-status
 
+[![NPM version badge](https://img.shields.io/npm/v/@xpring-eng/http-status)]
+
 A TypeScript enum for HTTP status codes.
 
 ## Usage
